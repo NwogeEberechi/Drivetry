@@ -58,7 +58,7 @@ nav .container span, .description span{
     color: #FFBF00;;
 }
 
-/* overlay */
+
 .header{
     background-image: url('../images/driving.jpg');
     background-size: cover;
@@ -66,7 +66,7 @@ nav .container span, .description span{
     min-height: 600px;
 }
 
-/* estimate */
+
 section.estimate{
     padding: 50px 0 50px 0px;
     background-color: #FFBF00;;
@@ -117,18 +117,22 @@ header h1 {
 .flex-container-col > div{
     height: 50%;
 }
+.flex-container > button{
+    background-color: #FFBF00;
+}
 .bg-cyan{
     background-image: url('../images/Rectangle.jpg');
     width: 50%;
+    
 }
 
 .bg-yellow {
-    background-color: #FFBF00;;
+    background-color: #FFBF00;
     padding: 100px 80px;
     color: #FFFFFF;
     font: xx-large;
     font-size: 2rem;
-    width: 50%;
+    width: 45%;
 }
 
 #subscribe{
