@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
 body{
     width: 100%;
     margin: 0px;
     padding: 0px;
     color: rgb(131, 125, 125);
+    font-family: 'Poppins', sans-serif;
 }
 @media screen and (max-width: 800px) {
     .flex-container {
@@ -11,6 +13,10 @@ body{
         flex-direction: column;
         align-items: center;
       }
+
+    .flex-container.estimate > div > button{
+        margin: 0;
+    }
   }
 
 /*general style */
@@ -22,15 +28,13 @@ input  {
     height: 60px;
     font-size: 1.5rem;
     padding-left: 8px;
-    border: 1px solid gold;
+    border: 1px solid #FFBF00;;
 }
 button{
-    border-radius: 50px;
-    box-shadow: 3px -4px 0 #1c1d1d;
     font-size: 1.5em;
     width: 390px;
     height: 65px;
-    background-color: green;
+    background-color: #0F0F0F;;
     color: #fff;
     border: 0px;
     cursor: pointer;
@@ -51,7 +55,7 @@ nav .container{
 }
 
 nav .container span, .description span{
-    color: gold;
+    color: #FFBF00;;
 }
 
 /* overlay */
@@ -65,13 +69,13 @@ nav .container span, .description span{
 /* estimate */
 section.estimate{
     padding: 50px 0 50px 0px;
-    background-color: gold;
-    color: #000;
+    background-color: #FFBF00;;
+    color: #F2F2F2;
     font-weight: 100;
     font-size: 1.3rem;
 }
-.text-center{
-    padding-left: 285px;
+.flex-container.estimate > div > button{
+    margin-top: 2.3em;
 }
 .flex-container {
     display: flex;
@@ -102,7 +106,7 @@ header h1 {
     font: xx-large;
     margin-block-end: 0.1em;
     font-size: 3rem;
-    color: #000;
+    color: #FFBF00;;
 
 }
 .flex-container-col{
@@ -114,14 +118,14 @@ header h1 {
     height: 50%;
 }
 .bg-cyan{
-    background-image: url('../images/Rectangle 4.2.png');
-    background-size: auto 100%;
+    background-image: url('../images/Rectangle.jpg');
+    width: 50%;
 }
 
 .bg-yellow {
-    background-color: gold;
+    background-color: #FFBF00;;
     padding: 100px 80px;
-    color: #000;
+    color: #FFFFFF;
     font: xx-large;
     font-size: 2rem;
     width: 50%;
