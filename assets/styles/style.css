@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(131, 125, 125);
+}
+/*general style */
+input  {
+    width: 350px;
+    height: 50px;
+    font-size: 1.5rem;
+    padding-left: 8px;
+}
+button{
+    width: 350px;
+    height: 55px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    border: 0px;
+}
+/* navbar section */
+nav {
+    background-color: #000;
+    color: #fff;
+    min-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+nav .container{
+    width: 80%;
+    margin:auto;
+    padding-top: 10px;
+}
+
+nav .container span{
+    color: gold;
+}
+
+/* overlay */
+
+
+/* estimate */
+section.estimate{
+    padding: 50px 0 50px 0px;
+    background-color: gold;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.flex-container > div.col-4 {
+    margin: 50px ;
+    text-align: center;
+}
+.flex-container > div.col-4 > h2 {
+    color: #000;
+    font-weight: bolder
+}
+.flex-container > button {
+    background-color: gold;
+    margin: 50px;
+}
+.flex-container.signup > div {
+    margin:2px;
+}
+
+header {
+    text-align: center;
+    padding: 32px;
+    line-clamp: 0.8;
+}
+header h1 {
+    font: xx-large;
+    font-size: 3rem;
+    color: gold;
+
+}
+
+.bg-yellow {
+    background-color: gold;
+    padding: 100px 40px;
+    color: #fff;
+    font: xx-large;
+    font-size: 2rem
+}
+
+#subscribe{
+    margin-bottom: 120px;
+}
