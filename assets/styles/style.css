@@ -4,26 +4,29 @@ body{
     padding: 0px;
     color: rgb(131, 125, 125);
 }
+
 /*general style */
 input  {
-    width: 350px;
-    height: 50px;
+    width: 380px;
+    height: 60px;
     font-size: 1.5rem;
     padding-left: 8px;
+    border: 1px solid gold;
 }
 button{
-    width: 350px;
-    height: 55px;
+    width: 380px;
+    height: 65px;
     background-color: #000;
     color: #fff;
     font-size: 1.5rem;
     border: 0px;
+    cursor: pointer;
 }
 /* navbar section */
 nav {
     background-color: #000;
     color: #fff;
-    min-height: 50px;
+    min-height: 60px;
     font-size: 1.5rem;
     font-weight: 100;
 }
@@ -34,12 +37,17 @@ nav .container{
     padding-top: 10px;
 }
 
-nav .container span{
+nav .container span, .description span{
     color: gold;
 }
 
 /* overlay */
-
+.header{
+    background-image: url('../images/driving.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
 
 /* estimate */
 section.estimate{
@@ -75,23 +83,57 @@ section.estimate{
 header {
     text-align: center;
     padding: 32px;
-    line-clamp: 0.8;
+    margin: 50px auto;
 }
 header h1 {
     font: xx-large;
+    margin-block-end: 0.1em;
     font-size: 3rem;
     color: gold;
 
 }
+.flex-container-col{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.flex-container-col > div{
+    height: 50%;
+}
+.bg-cyan{
+    background-image: url('../images/Rectangle 4.2.png');
+    background-size: auto 100%;
+}
 
 .bg-yellow {
     background-color: gold;
-    padding: 100px 40px;
+    padding: 100px 80px;
     color: #fff;
     font: xx-large;
-    font-size: 2rem
+    font-size: 2rem;
+    width: 50%;
 }
 
 #subscribe{
-    margin-bottom: 120px;
+    margin-bottom: 150px;
+}
+
+.description{
+    width: 60%;
+    padding-top: 180px;
+    text-align: center;
+}
+.description h1{
+    font: xx-large;
+    font-size: 4.5rem;
+    color: #fff;
+    margin-block-end: 0.2em;
+}
+
+.action{
+    margin: 50px auto;
+}
+
+.wrapper{
+    width: 80%;
 }
