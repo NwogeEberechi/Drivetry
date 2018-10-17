@@ -9,15 +9,13 @@ body{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
       }
-      .flex-container-col{
-        width: 100%;
-    }
   }
 
 /*general style */
 img {
-    width: 100%;
+    max-width: 100%;
 }
 input  {
     width: 380px;
@@ -27,11 +25,13 @@ input  {
     border: 1px solid gold;
 }
 button{
-    width: 380px;
+    border-radius: 50px;
+    box-shadow: 3px -4px 0 #1c1d1d;
+    font-size: 1.5em;
+    width: 390px;
     height: 65px;
-    background-color: #000;
+    background-color: green;
     color: #fff;
-    font-size: 1.5rem;
     border: 0px;
     cursor: pointer;
 }
@@ -66,17 +66,18 @@ nav .container span, .description span{
 section.estimate{
     padding: 50px 0 50px 0px;
     background-color: gold;
-    color: #fff;
+    color: #000;
     font-weight: 100;
     font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
+}
+.text-center{
+    padding-left: 285px;
 }
 .flex-container {
     display: flex;
     justify-content: center;
   }
-
+  
 .flex-container > div.col-4 {
     margin: 50px ;
     text-align: center;
@@ -86,10 +87,9 @@ section.estimate{
     font-weight: bolder
 }
 .flex-container > button {
-    background-color: gold;
     margin: 50px;
 }
-.flex-container.signup > div {
+.flex-container.signup > div, .flex-container.estimate > div {
     margin:2px;
 }
 
@@ -102,7 +102,7 @@ header h1 {
     font: xx-large;
     margin-block-end: 0.1em;
     font-size: 3rem;
-    color: gold;
+    color: #000;
 
 }
 .flex-container-col{
@@ -121,7 +121,7 @@ header h1 {
 .bg-yellow {
     background-color: gold;
     padding: 100px 80px;
-    color: #fff;
+    color: #000;
     font: xx-large;
     font-size: 2rem;
     width: 50%;
